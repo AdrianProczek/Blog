@@ -2,7 +2,6 @@
 {% block content %}
 {% include "header.html" %}
 
-<!-- Page Header -->
 <header
   class="masthead"
   style="background-image: url('../static/assets/img/edit-bg.jpg')"
@@ -12,9 +11,9 @@
       <div class="col-md-10 col-lg-8 col-xl-7">
         <div class="page-heading">
           {% if is_edit: %}
-          <h1>Edit Post</h1>
+            <h1>Edit Post</h1>
           {% else: %}
-          <h1>New Post</h1>
+            <h1>New Post</h1>
           {% endif %}
           <span class="subheading"
             >You're going to make a great blog post!</span
